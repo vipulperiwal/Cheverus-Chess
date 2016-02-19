@@ -13,11 +13,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var emailField: UITextField!
 
     override func viewDidLoad() {
-        UIApplication.sharedApplication().statusBarStyle = .LightContent;
-        emailField.text = "";
+        UIApplication.sharedApplication().statusBarStyle = .LightContent
+        emailField.text = ""
         emailField.attributedPlaceholder = NSAttributedString(string:"Cheverus Email",
-            attributes:[NSForegroundColorAttributeName: UIColor.whiteColor()]);
-        passwordField.text = "";
+            attributes:[NSForegroundColorAttributeName: UIColor.whiteColor()])
+        passwordField.text = ""
         passwordField.attributedPlaceholder = NSAttributedString(string:"Password",
             attributes:[NSForegroundColorAttributeName: UIColor.whiteColor()])
         
